@@ -41,7 +41,7 @@ app.get('/auth/login', (req, res) => {
   res.redirect('https://accounts.spotify.com/authorize/?' + auth_query_parameters.toString());
 })
 
-app.get('https://jammming-ju2u.onrender.com/auth/callback', (req, res) => {
+app.get('/auth/callback', (req, res) => {
 
   var code = req.query.code;
 
