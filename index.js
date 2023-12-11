@@ -11,7 +11,7 @@ dotenv.config()
 var spotify_client_id = process.env.SPOTIFY_CLIENT_ID
 var spotify_client_secret = process.env.SPOTIFY_CLIENT_SECRET
 
-var spotify_redirect_uri = 'https://jammming-ju2u.onrender.com/auth/callback'
+var spotify_redirect_uri = 'https://jammmingapi.onrender.com/auth/callback'
 
 var generateRandomString = function (length) {
   var text = '';
