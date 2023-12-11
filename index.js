@@ -69,6 +69,7 @@ app.get('/auth/callback', (req, res) => {
 })
 
 app.get('/auth/token', (req, res) => {
+  res.set('Access-Control-Allow-Origin', 'https://jammming-ju2u.onrender.com/');
   res.json({ access_token: access_token})
 })
 
