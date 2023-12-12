@@ -74,6 +74,6 @@ app.get('/auth/token', (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log(`Listening at http://localhost:${port}`)
+  console.log(`Listening at https://jammmingapi.onrender.com/`)
 })
 
